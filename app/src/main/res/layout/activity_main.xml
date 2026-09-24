@@ -20,12 +20,25 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="180dp"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/ic_launcher_background" />
             
             <TextView
-                android:layout_width=""
-                android:layout_height=""
-            
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pasta"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aleatório"/>
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
 
     
